@@ -1,0 +1,22 @@
+fieldset{
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#i1{
+    color: white;
+    background-color: blue;
+    opacity: 80px;
+}
+#i2{
+    color: white;
+    background-color: blue;
+    opacity: 80px;
+    border-radius: 25px;
+}
+input{
+    border-radius: 10px;
+    color: black;
+}
+#in1,#j1,#j2,#j3{
+    margin-left: 40px;
+}

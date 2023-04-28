@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+        <style>
+            fieldset{
+                width: 400px;
+                margin-left: 550px;
+                margin-top: 200px;padding-top: 20px;
+                padding-bottom: 30px;
+            }
+            
+            label{
+                font-size: large;
+            }
+center{
+    padding-top: 10px;
+}
+button{
+    height: 25px;
+    width: 80px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+#i1{
+    height: 25px;
+    width: 80px;
+}
+h2{
+    text-align: center;
+}
+#j1,#j2,#j3{
+    font-size: large;
+    width: 210px;
+}
+i{
+    position: absolute;
+    left: 950px;
+    top: 230px;
+}
+#mail{
+    text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+    position: absolute;
+    left: 750px;
+    top: 420px;
+    font-size: larger;
+}
+#city{
+    text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+    position: absolute;
+    left: 750px;
+    top: 460px;
+}
+#user{
+    text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+    position: absolute;
+    left: 750px;
+    top: 305px;
+}
+#user2{
+    text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+    position: absolute;
+    left: 750px;
+    top: 345px;
+}
+#user1{
+    
+    position: absolute;
+    left: 630px;
+    top: 240px;
+    font-size:xx-large;
+    
+}
+
+#state{
+    text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+    position: absolute;
+    left: 750px;
+    top: 490px;
+}
+#ii1{
+    text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+    position: absolute;
+    left: 750px;
+    top: 525px;
+}
+body{
+    background-image: url(./Picsart_23-01-03_17-51-43-985.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h2,table{
+                text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+                color:rgb(238, 17, 17);
+                
+            }
+#phone{
+    text-shadow: 4px 1px 5px rgb(255, 255, 255) ;
+    position: absolute;
+    left: 750px;
+    top: 380px;
+}
+    </style>
+        <link rel="stylesheet" href="./signup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <i class="fa-solid fa-envelope-circle-check" id="mail"></i>
+        <i class="fa-solid fa-phone" id="phone"></i>
+        <i class="fa-solid fa-city" id="city"></i>
+        <i class="fa-sharp fa-solid fa-user" id="user"></i> 
+        <i class="fa-sharp fa-solid fa-users-line" id="user1"></i>
+        <i class="fa-sharp fa-solid fa-user" id="user2"></i> 
+        <i class="fa-solid fa-landmark" id="state"></i>
+        <i class="fa-solid fa-globe" id="ii1"></i>
+        <fieldset>
+            <h2><u>WELCOME USER</u> </h2>
+        <table>
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input type="TEXT" id="in1"></td>
+            </tr>
+        
+            <tr>
+                <td><label>Last Name</label></td>
+                <td><input type="TEXT" id="in1"></td>
+            </tr>
+            
+            <tr>
+                
+                <td><label>Phone Number</label></td>
+                
+                <td><input type="number" id="in1"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td> <input type="text" name="" id="in1"></td>
+            </tr>
+            <tr>
+                <td><label> City</label></td>
+                <td>
+                    <input id="j1" type="search" list="City" placeholder="                select">
+                    <datalist id="City">
+
+                    <select multiple>
+                <option value="TRICHY">TRICHY</option>
+                <option value="SALEM">SALEM</option>
+                <option value="THANJAVUR">THANJAVUR</option>
+
+                <option  value="MADURAI">MADURAI</option>
+                <OPTION value="COIMBATORE">COIMBATORE</OPTION>
+                <OPTION value="VELLORE">VELLORE</OPTION>
+                <OPTION value="PUDUKKOTTAI">PUDUKKOTTAI</OPTION>
+
+                <option value="KUMBAKONAM">KUMBAKONAM</option>
+
+                </select> </td>
+            <tr>
+                <td><label> State/Province/Region</label></td>
+                <td>
+                    <input type="search" id="j2" list="STATES" placeholder="                select">
+                    <datalist id="STATES">
+
+                    <select multiple>
+                <option value="tamilnadu">tamilnadu</option>
+                <option value="KERALA">KERALA</option>
+                <option value="KARNATAKA">KARNATAKA</option>
+
+                <option  value="HARYANA">HARYANA</option>
+                <OPTION value="ANDHRA">ANDHRA</OPTION>
+                <OPTION value="ASSAM">ASSAM</OPTION>
+                <OPTION value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</OPTION>
+
+                <option value="GOA">GOA</option>
+
+                </select> </td>
+            </tr>
+            <tr>
+                <td><label> Country</label></td>
+                <td> <input type="search" id="j3" list="country" placeholder="                select">
+                    <datalist id="country">
+
+                <select multiple>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+                </td>
+            </tr>
+        </table>
+
+        <center>
+            <a href="./1stpage.html" > <input type="submit" id="i1"></a>
+        <a href="./BOOKTRIP3.HTML"><button id="i2"> cancel</button></a>
+    </center>  
+    </fieldset>
+
+    </body>
+</html>

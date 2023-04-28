@@ -1,0 +1,14 @@
+fieldset{
+    width: 700px;
+    border-radius: 35px;
+    padding-left: 100px;
+}
+#button2{
+    color: white;
+    background-color:rgb(245, 14, 14) 
+}
+#button1{
+    color: white;
+    background-color:rgba(0, 0, 150, 4.4) 
+}
+
